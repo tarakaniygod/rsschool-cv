@@ -15,6 +15,6 @@
    - JS
    - Node.js
    - Adobe photoshop
-   - VS Code
-   ыф
+   - VS Code, Atom
+   
 
