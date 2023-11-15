@@ -17,4 +17,27 @@
    - Adobe photoshop
    - VS Code, Atom
    
+## Code example:
+
+   I don't know what code to include here, so I'll just point out a piece of code from the training projects.
+
+   ```
+   function animatePress (userChosenColour){
+        $("#" + userChosenColour).addClass("pressed");
+        setTimeout(function(){
+            $("#" + userChosenColour).removeClass("pressed"); 
+        }, 100);
+
+    }
+    animatePress(userChosenColour);
+    checkAnswer(userClickedPattern.length-1);
+    });
+
+   ```
+## Courses: 
+
+   * "The Complete Web Development Bootcamp" (in progress)
+   * "The HTML & CSS Bootcamp 2023 Edition" (completed)
+
+
 
