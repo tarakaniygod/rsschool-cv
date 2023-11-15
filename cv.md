@@ -39,5 +39,9 @@
    * "The Complete Web Development Bootcamp" (in progress)
    * "The HTML & CSS Bootcamp 2023 Edition" (completed)
 
+## Languages:
+
+   I studied the language at school and university. At the moment I have studied two books with idioms. Now I'm studying grammar. My level is B1.
+
 
 
