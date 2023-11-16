@@ -18,7 +18,7 @@ h2{
 h3{
     margin: 0;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
 }
 p{
     margin: 0;
@@ -31,6 +31,11 @@ hr{
     width: 30px;
     background-color: rgb(69, 69, 69);
 }
+span{
+    font-weight: 600;
+}
+
+/* MAIN SECTION */
 .main-section{
     margin: 50px 25%;
     display: grid;
@@ -55,20 +60,159 @@ hr{
 .main-section .profile{
     grid-area: b;
 }
+
+/* EDUCATION SECTION */
 .main-section .education{
     background-color: rgb(251, 237, 223);
     grid-area: c;
 }
-.main-section .experience{
+
+/* EXPERIENCE SECTION */
+.main-section .experience-section{
     background-color: rgb(248, 243, 238);
     grid-area: d;
+    }
+.experience-section .experience{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
+
+/* CONTACT SECTION */
 .main-section .contact{
     background-color: rgb(251, 235, 234);
     grid-area: g;
 }
-
-.main-section .skills{
-    background-color: rgb(251, 237, 223);
-    grid-area: e;
+.contact p{
+    margin: 10px 0;
 }
+
+/* SKILLS SECTION */
+.main-section .skills-section{
+    background-color: rgb(251, 237, 223);
+    grid-area: e;      
+}
+.skills-section .skill-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;  
+}
+.skill-list .skill{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.skills-section .circle{
+    background-color: rgb(69, 69, 69);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+}
+.skills-section .circle-off{
+    background-color: rgb(225, 225, 225);
+}
+
+
+
+/* 
+<div class="left-column">
+                    <p>
+                        09.2023-Present <br>
+                        LLC Stroy Cash
+                       </p>
+                        <p>
+                        03.2023-09.2022 <br>
+                        LLC Stroy Cash
+                       </p>
+                        <p>
+                            02.2023-03.2022 <br>
+                            LLC Stroy Cash
+                        </p>
+                       <p>
+                        10.2022-01.2022 <br>
+                        Google Inc.
+                       </p>
+                </div>
+                <div class="right-column">
+                    <p>
+                        Sales Manager <br>
+                        Analysis of competitors, creation of a database of cabinet furniture manufacturers, communication with manufacturers, preliminary calculation of furniture, communication with clients, etc.
+                       </p>
+                        <p>
+                        HR Manager <br>
+                        Search for line personnel, interview of line personnel, search for management personnel, etc.
+                       </p>
+                       <p>
+                        Business assistant <br>
+                        Fulfilled instructions from management, kept time sheets for workers, designed a website based on Tilda, analyzed competitors, etc.
+                       </p>
+                       <p>
+                        Assessor <br>
+                        Assessing the relevance of web pages.
+                       </p>
+                </div> */
+
+
+
+
+
+
+
+
+                /* <div class="experience-row">
+                    <div class="experience-column">
+                        <p>
+                            09.2023-Present <br>
+                            LLC Stroy Cash
+                        </p>
+                    </div>
+                    <div class="experience-column">
+                        <p>
+                            Sales Manager <br>
+                            Analysis of competitors, creation of a database of cabinet furniture manufacturers, communication with manufacturers, preliminary calculation of furniture, communication with clients, etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-row">
+                    <div class="experience-column">
+                        <p>
+                            03.2023-09.2022 <br>
+                            LLC Stroy Cash
+                        </p>
+                    </div>
+                    <div class="experience-column">
+                        <p>
+                            HR Manager <br>
+                            Search for line personnel, interview of line personnel, search for management personnel, etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-row">
+                    <div class="experience-column">
+                        <p>
+                            02.2023-03.2022 <br>
+                            LLC Stroy Cash
+                           </p>
+                    </div>
+                    <div class="experience-column">
+                        <p>
+                            Business assistant <br>
+                            Fulfilled instructions from management, kept time sheets for workers, designed a website based on Tilda, analyzed competitors, etc.
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-row">
+                    <div class="experience-column">
+                        <p>
+                            10.2022-01.2023 <br>
+                            Google Inc.
+                        </p>
+                    </div>
+                    <div class="experience-column">
+                        <p>
+                            Assessor <br>
+                            Assessing the relevance of web pages.
+                        </p>
+                    </div> */
