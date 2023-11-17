@@ -1,1 +1,1 @@
-# rsschool-cv
+https://tarakaniygod.github.io/rsschool-cv/cv
