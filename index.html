@@ -12,10 +12,10 @@
 <body>
     <section class="main-section">
         
-            <div class="photo">
-                <img src="avatar.jfif" alt="avatar">
+            <div class="photo left">
+                <img src="avatar.png" alt="avatar">
             </div>
-            <div class="profile">
+            <div class="profile right">
                 <h1>Roman <br> Zavodov</h1>
                 <h2>Web-Developer(soon)</h2>
                 <h3>Profile</h3>
@@ -23,7 +23,7 @@
                 <p>Hello everyone, my name is Roma. I'm 22. I want to become a web developer. I graduated from the Financial University under the Government of the Russian Federation in 2022. Hobbies include playing the guitar, reading books, studying. I've been learning web development for about a year, but I'm doing it very slowly. I know the basics of HTML, CSS, JS, Node.js and etc.
                 </p>
             </div>
-            <div class="education container">
+            <div class="education left">
                 <h3>Education</h3>
                 <hr>
                 <p>
@@ -32,7 +32,7 @@
                     Financial University
                 </p>
             </div>
-            <div class="contact container">
+            <div class="contact left">
                 <h3>Contact</h3>
                 <hr>
                 <p>
@@ -44,11 +44,19 @@
                     kolivonka@gmail.com
                 </p>
                 <p>
+                    <span>Discord</span> <br>
+                    OkiDoki (@tarakaniygod)
+                </p>
+                <p>
+                    <span>Telegram</span> <br>
+                    @enponcha
+                </p>
+                <p>
                     <span>Adress</span> <br>
                     Turkish, Alanya
                 </p>
             </div>
-            <div class="experience-section container">
+            <div class="experience-section container right">
                 <h3>Experience</h3>
                 <hr>
                 <div class="experience">
@@ -104,7 +112,7 @@
                 </div>
             </div>
             
-            <div class="skills-section container">
+            <div class="skills-section right">
                 <h3>Skills</h3>
                 <hr>
                 <div class="skill-list">
@@ -162,7 +170,24 @@
                 </div>                
             </div>
             </div>
+            <div class="code-section">
+                <h3>Code example</h3>
+                <hr>                
+                    <code>
+                        <p>
+                            function animatePress (userChosenColour){ <br>
+                                $("#" + userChosenColour).addClass("pressed"); <br>
+                                setTimeout(function(){ <br>
+                                    $("#" + userChosenColour).removeClass("pressed"); <br>
+                                }, 100);} <br>
+                            animatePress(userChosenColour); <br>
+                            checkAnswer(userClickedPattern.length-1); <br>
+                        </p>                        
+                    </code>
+            </div>
         
     </section>
   </body>
 </html>
+
+

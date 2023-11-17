@@ -35,6 +35,15 @@ span{
     font-weight: 600;
 }
 
+/*WIDTH OF 2 COLUMNS*/
+
+.left{
+    max-width: 150px;
+}
+.right{
+    max-width: 300px;
+}
+
 /* MAIN SECTION */
 .main-section{
     margin: 50px 25%;
@@ -43,10 +52,20 @@ span{
     "a b b"
     "c d d"
     "g d d"
-    "g e e";
+    "g e e"
+    "k k k";
     gap: 24px 12px;
+    max-width: 1150px;
+    justify-content: center;
 }
-.container{    
+.profile{
+    padding: 0 32px;
+}
+.container-num1{    
+    padding: 32px;
+    border-top-left-radius: 30px;
+}
+.container-num2{    
     padding: 32px;
     border-top-left-radius: 30px;
 }
@@ -56,6 +75,9 @@ span{
 .photo img{
     border-top-right-radius: 30px;
     border-bottom-left-radius: 30px;
+    max-width: 170px;
+    height: 300px;
+    object-fit: cover;
 }
 .main-section .profile{
     grid-area: b;
@@ -65,23 +87,31 @@ span{
 .main-section .education{
     background-color: rgb(251, 237, 223);
     grid-area: c;
+    padding: 32px;
+    border-top-left-radius: 30px;
 }
 
 /* EXPERIENCE SECTION */
 .main-section .experience-section{
     background-color: rgb(248, 243, 238);
     grid-area: d;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 32px;
     }
 .experience-section .experience{
     display: grid;
     grid-template-columns: 2fr 3fr;
     grid-template-rows: 1fr 1fr 1fr;
+   
 }
 
 /* CONTACT SECTION */
 .main-section .contact{
     background-color: rgb(251, 235, 234);
     grid-area: g;
+    border-top-right-radius: 30px;
+    padding: 32px;
 }
 .contact p{
     margin: 10px 0;
@@ -90,7 +120,10 @@ span{
 /* SKILLS SECTION */
 .main-section .skills-section{
     background-color: rgb(251, 237, 223);
-    grid-area: e;      
+    grid-area: e;    
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;  
+    padding: 32px;
 }
 .skills-section .skill-list{
     display: grid;
@@ -114,105 +147,13 @@ span{
     background-color: rgb(225, 225, 225);
 }
 
-
-
-/* 
-<div class="left-column">
-                    <p>
-                        09.2023-Present <br>
-                        LLC Stroy Cash
-                       </p>
-                        <p>
-                        03.2023-09.2022 <br>
-                        LLC Stroy Cash
-                       </p>
-                        <p>
-                            02.2023-03.2022 <br>
-                            LLC Stroy Cash
-                        </p>
-                       <p>
-                        10.2022-01.2022 <br>
-                        Google Inc.
-                       </p>
-                </div>
-                <div class="right-column">
-                    <p>
-                        Sales Manager <br>
-                        Analysis of competitors, creation of a database of cabinet furniture manufacturers, communication with manufacturers, preliminary calculation of furniture, communication with clients, etc.
-                       </p>
-                        <p>
-                        HR Manager <br>
-                        Search for line personnel, interview of line personnel, search for management personnel, etc.
-                       </p>
-                       <p>
-                        Business assistant <br>
-                        Fulfilled instructions from management, kept time sheets for workers, designed a website based on Tilda, analyzed competitors, etc.
-                       </p>
-                       <p>
-                        Assessor <br>
-                        Assessing the relevance of web pages.
-                       </p>
-                </div> */
-
-
-
-
-
-
-
-
-                /* <div class="experience-row">
-                    <div class="experience-column">
-                        <p>
-                            09.2023-Present <br>
-                            LLC Stroy Cash
-                        </p>
-                    </div>
-                    <div class="experience-column">
-                        <p>
-                            Sales Manager <br>
-                            Analysis of competitors, creation of a database of cabinet furniture manufacturers, communication with manufacturers, preliminary calculation of furniture, communication with clients, etc.
-                        </p>
-                    </div>
-                </div>
-                <div class="experience-row">
-                    <div class="experience-column">
-                        <p>
-                            03.2023-09.2022 <br>
-                            LLC Stroy Cash
-                        </p>
-                    </div>
-                    <div class="experience-column">
-                        <p>
-                            HR Manager <br>
-                            Search for line personnel, interview of line personnel, search for management personnel, etc.
-                        </p>
-                    </div>
-                </div>
-                <div class="experience-row">
-                    <div class="experience-column">
-                        <p>
-                            02.2023-03.2022 <br>
-                            LLC Stroy Cash
-                           </p>
-                    </div>
-                    <div class="experience-column">
-                        <p>
-                            Business assistant <br>
-                            Fulfilled instructions from management, kept time sheets for workers, designed a website based on Tilda, analyzed competitors, etc.
-                        </p>
-                    </div>
-                </div>
-                <div class="experience-row">
-                    <div class="experience-column">
-                        <p>
-                            10.2022-01.2023 <br>
-                            Google Inc.
-                        </p>
-                    </div>
-                    <div class="experience-column">
-                        <p>
-                            Assessor <br>
-                            Assessing the relevance of web pages.
-                        </p>
-                    </div> */
+/*CODE SECTION*/
+.code-section{
+    grid-area: k;
+    background-color: rgb(248, 243, 238);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 32px;
+    max-width: 500px;
+    display: inline-block;
+}
