@@ -1,0 +1,159 @@
+body
+{
+    font-family: 'Poppins', 'sanserif';
+    color: rgb(69, 69, 69);    
+} 
+h1{
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+}
+h2{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 12px 0 24px 0;
+}
+h3{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+p{
+    margin: 0;
+    font-size: 10px;
+}
+hr{    
+    margin: 12px 0;
+    border: none;
+    height: 2px;
+    width: 30px;
+    background-color: rgb(69, 69, 69);
+}
+span{
+    font-weight: 600;
+}
+
+/*WIDTH OF 2 COLUMNS*/
+
+.left{
+    max-width: 150px;
+}
+.right{
+    max-width: 300px;
+}
+
+/* MAIN SECTION */
+.main-section{
+    margin: 50px 25%;
+    display: grid;
+    grid-template-areas:
+    "a b b"
+    "c d d"
+    "g d d"
+    "g e e"
+    "k k k";
+    gap: 24px 12px;
+    max-width: 1150px;
+    justify-content: center;
+}
+.profile{
+    padding: 0 32px;
+}
+.container-num1{    
+    padding: 32px;
+    border-top-left-radius: 30px;
+}
+.container-num2{    
+    padding: 32px;
+    border-top-left-radius: 30px;
+}
+.main-section .photo{
+    grid-area: a;
+}
+.photo img{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    max-width: 170px;
+    height: 300px;
+    object-fit: cover;
+}
+.main-section .profile{
+    grid-area: b;
+}
+
+/* EDUCATION SECTION */
+.main-section .education{
+    background-color: rgb(251, 237, 223);
+    grid-area: c;
+    padding: 32px;
+    border-top-left-radius: 30px;
+}
+
+/* EXPERIENCE SECTION */
+.main-section .experience-section{
+    background-color: rgb(248, 243, 238);
+    grid-area: d;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 32px;
+    }
+.experience-section .experience{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+}
+
+/* CONTACT SECTION */
+.main-section .contact{
+    background-color: rgb(251, 235, 234);
+    grid-area: g;
+    border-top-right-radius: 30px;
+    padding: 32px;
+}
+.contact p{
+    margin: 10px 0;
+}
+
+/* SKILLS SECTION */
+.main-section .skills-section{
+    background-color: rgb(251, 237, 223);
+    grid-area: e;    
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;  
+    padding: 32px;
+}
+.skills-section .skill-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;  
+}
+.skill-list .skill{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+.skills-section .circle{
+    background-color: rgb(69, 69, 69);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 2px;
+}
+.skills-section .circle-off{
+    background-color: rgb(225, 225, 225);
+}
+
+/*CODE SECTION*/
+.code-section{
+    grid-area: k;
+    background-color: rgb(248, 243, 238);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 32px;
+    max-width: 500px;
+    display: inline-block;
+}
